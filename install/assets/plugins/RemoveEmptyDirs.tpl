@@ -2,7 +2,7 @@
 /**
  * RemoveEmptyDirs
  *
- * Плагин Evolution CMS для очистки директорий `assets/images`, `assets/files`, `assets/media` от пустых субдиректорий
+ * 👍 Плагин Evolution CMS для очистки директорий `assets/images`, `assets/files`, `assets/media` от пустых субдиректорий
  *
  * @category     plugin
  * @version      1.0.0
@@ -21,7 +21,7 @@
 /**
  * RemoveEmptyDirs
  *
- * Плагин Evolution CMS для очистки директорий `assets/images`, `assets/files`, `assets/media` от пустых субдиректорий
+ * 👍 Плагин Evolution CMS для очистки директорий `assets/images`, `assets/files`, `assets/media` от пустых субдиректорий
  *
  * @category     plugin
  * @version      1.0.0

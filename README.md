@@ -4,6 +4,6 @@
 
 # RemoveEmptyDirs
 
-Плагин Evolution CMS для очистки директорий `MODX_BASE_PATH . "assets/images"`, `MODX_BASE_PATH . "assets/files"`, `MODX_BASE_PATH . "assets/media"` от пустых субдиректорий.
+👍 Плагин Evolution CMS для очистки директорий `MODX_BASE_PATH . "assets/images"`, `MODX_BASE_PATH . "assets/files"`, `MODX_BASE_PATH . "assets/media"` от пустых субдиректорий.
 
 Autor: [ProjectSoft](https://projectsoft.ru/)
