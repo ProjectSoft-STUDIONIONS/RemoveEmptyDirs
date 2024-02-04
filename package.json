@@ -1,0 +1,24 @@
+{
+	"version": "1.0.0",
+	"name": "removeemptydirs",
+	"evoname": "RemoveEmptyDirs",
+	"description": "Плагин Evolution CMS для очистки директорий `MODX_BASE_PATH . \"assets/images\"`, `MODX_BASE_PATH . \"assets/files\"`, `MODX_BASE_PATH . \"assets/media\"`",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm i",
+		"build": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ProjectSoft-STUDIONIONS/RemoveEmptyDirs.git"
+	},
+	"author": "Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ProjectSoft-STUDIONIONS/RemoveEmptyDirs/issues"
+	},
+	"homepage": "https://github.com/ProjectSoft-STUDIONIONS/RemoveEmptyDirs#readme",
+	"dependencies": {
+		"node-zip": "^1.1.1"
+	}
+}
