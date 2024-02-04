@@ -1,4 +1,5 @@
 <?php
+if(!defined('MODX_BASE_PATH')){die('What are you doing? Get out of here!');}
 /**
  * Если функция не существует
  * Создать
@@ -57,9 +58,16 @@ if(!function_exists('removeEmptyFolders')):
 		return $isFolderEmpty;
 	}
 endif;
-/**
- * Запустим для директорий images, files, media
- */
-removeEmptyFolders(MODX_BASE_PATH . 'assets/images');
-removeEmptyFolders(MODX_BASE_PATH . 'assets/files');
-removeEmptyFolders(MODX_BASE_PATH . 'assets/media');
+$e = &$modx->event;
+switch($e->name){
+	case "OnManagerLogin":
+	case "OnManagerLogout":
+
+		/**
+		 * Запустим для директорий images, files, media
+		 */
+		removeEmptyFolders(MODX_BASE_PATH . 'assets/images');
+		removeEmptyFolders(MODX_BASE_PATH . 'assets/files');
+		removeEmptyFolders(MODX_BASE_PATH . 'assets/media');
+		break;
+}

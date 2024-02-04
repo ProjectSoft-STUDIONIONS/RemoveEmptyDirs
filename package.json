@@ -2,7 +2,7 @@
 	"version": "1.0.0",
 	"name": "removeemptydirs",
 	"evoname": "RemoveEmptyDirs",
-	"description": "Плагин Evolution CMS для очистки директорий `MODX_BASE_PATH . \"assets/images\"`, `MODX_BASE_PATH . \"assets/files\"`, `MODX_BASE_PATH . \"assets/media\"`",
+	"description": "Плагин Evolution CMS для очистки директорий `MODX_BASE_PATH . \"assets/images\"`, `MODX_BASE_PATH . \"assets/files\"`, `MODX_BASE_PATH . \"assets/media\"`  от пустых субдиректорий",
 	"main": "index.js",
 	"scripts": {
 		"test": "npm i",
