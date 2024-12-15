@@ -1,0 +1,15 @@
+* text=auto
+
+**/*.tpl text eol=lf
+**/*.php text eol=lf
+
+/.git* export-ignore
+/*.sublime-* export-ignore
+/*.json export-ignore
+/*.zip export-ignore
+/*.inf export-ignore
+/*.ini export-ignore
+/*.ico export-ignore
+/*.js
+/*.md
+/LICENSE export-ignore
